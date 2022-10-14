@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8" />
+  <title>Cadastro Simposio</title>
+  <meta name="viewport" content="width=device-width"> 
+  <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+<body>
+    <header>
+      <nav>
+        <a class="logo" href="/">Unesp</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#">Inscrições</a></li>
+          <li><a href="#">Contato</a></li>
+          <li><a href="calendario.html">Programação</a></li>
+          <li><a href="login.html"><b>LOGIN</b></a></li>
+        </ul>
+      </nav>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width">
+      <title>Simposio Unesp</title>
+      <link href="style.css" rel="stylesheet" type="text/css" />
+      </head>
+  
+      <body>
+        <header>
+          <div class="barra">
+            <h1 class="text-barra"> Cadastro</h1>
+        </header>
+        
+        <div class="container-fluid">      
+            <div class="row">
+                <form method="post" action=""> 
+                  <p> 
+                    <label for="nome_cad">Seu nome</label>
+                    <input id="nome_cad" name="nome_cad" required="required" type="text" placeholder="nome" />
+                  </p>
+
+                  <p> 
+                    <label for="phone">Seu telefone</label>
+                    <input type="tel" id="phone" name="phone" required="required" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="(+55) DDD 00000-0000">
+                  <p> 
+                    <label for="email_cad">Seu e-mail</label>
+                    <input id="email_cad" name="email_cad" required="required" type="email" placeholder="contato@htmlecsspro.com"/> 
+                  </p>
+                   
+                  <p> 
+                    <label for="senha_cad">Sua senha</label>
+                    <input id="senha_cad" name="senha_cad" required="required" type="password" placeholder="ex. 1234"/>
+                  </p>
+                   
+                  <p> 
+                    <input type="submit" value="Cadastrar"/> 
+                  </p>
+                   
+                  <p>  
+                    Já tem conta?
+                    <a href="login.html"> Ir para Login </a>
+                  </p>
+                </form>
+              </div>
+        
+        <div class="footer">
+          <div class="row-fim">
+            <div class="col-md-12">
+              <div class="row-fim">
+                <div class="col-md-6-1-footer">
+                  <h3>
+                    E-mail:
+                  </h3>
+                  <p>
+                    contatosimposiomatematica@gmail.com
+                  </p>
+                </div>
+                <div class="col-md-6-2">
+                  <h3>
+                    Redes Sociais:
+                  </h3>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </body>
+    </header>
+  </body>
+</html>
